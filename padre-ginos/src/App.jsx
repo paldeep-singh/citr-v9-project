@@ -5,15 +5,20 @@ const App = () => {
   return (
     <div>
       <h1>Padre Ginos!</h1>
-      <Pizza name="Pepperoni" description="Pepperoni, cheese, tomato sauce" />
-      <Pizza name="Margherita" description="Cheese, tomato sauce" />
       <Pizza
-        name="Hawaiian"
-        description="Ham, pineapple, cheese, tomato sauce"
+        name="Pepperoni"
+        description="Pepperoni, cheese, tomato sauce"
+        image={"/public/pizzas/pepperoni.webp"}
       />
       <Pizza
-        name="Vegetarian"
-        description="Mushrooms, peppers, onions, cheese, tomato sauce"
+        name="Margherita"
+        description="Cheese, tomato sauce"
+        image={"/public/pizzas/hawaiian.webp"}
+      />
+      <Pizza
+        name="Americano"
+        description="French fries, hot dogs, n stuff"
+        image={"/public/pizzas/big_meat.webp"}
       />
     </div>
   );
